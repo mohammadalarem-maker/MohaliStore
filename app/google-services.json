@@ -1,0 +1,28 @@
+{
+  "project_info": {
+    "project_number": "795331442491",
+    "project_id": "mohalistore-fa8b3",
+    "storage_bucket": "mohalistore-fa8b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795331442491:android:d471219ebf01ae1a78291e",
+        "android_client_info": {
+          "package_name": "com.mohali.store"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFuojAdUfZBzz5I-Qj3s8a3LXhlWntznQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

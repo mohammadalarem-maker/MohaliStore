@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محلي ستور</string>
+    <string name="app_name_en">Mohali Store</string>
+
+    <!-- Auth -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="login_tagline">نظام إدارة المحل المتكامل</string>
+
+    <!-- Navigation -->
+    <string name="home">الرئيسية</string>
+    <string name="inventory">المخزون</string>
+    <string name="sales">المبيعات</string>
+    <string name="reports">التقارير</string>
+    <string name="customers">العملاء</string>
+    <string name="purchases">المشتريات</string>
+    <string name="expenses">المصروفات</string>
+    <string name="users">المستخدمون</string>
+    <string name="settings">الإعدادات</string>
+    <string name="notifications">الإشعارات</string>
+
+    <!-- Products -->
+    <string name="add_product">إضافة منتج</string>
+    <string name="edit_product">تعديل المنتج</string>
+    <string name="product_name">اسم المنتج</string>
+    <string name="barcode">الباركود</string>
+    <string name="buy_price">سعر الشراء</string>
+    <string name="sell_price">سعر البيع</string>
+    <string name="quantity">الكمية</string>
+    <string name="low_stock_warning">تحذير: مخزون منخفض</string>
+    <string name="out_of_stock">نافد المخزون</string>
+
+    <!-- Sales -->
+    <string name="new_sale">بيع جديد</string>
+    <string name="invoice">فاتورة</string>
+    <string name="total">الإجمالي</string>
+    <string name="discount">الخصم</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="cash">نقدي</string>
+    <string name="card">بطاقة</string>
+
+    <!-- Developer credit -->
+    <string name="developer_credit">تطوير: كلود • بواسطة محمد الصارم</string>
+    <string name="version">الإصدار 1.0.0</string>
+</resources>
