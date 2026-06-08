@@ -2,13 +2,17 @@ package com.mohali.store.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import com.mohali.store.data.models.*
 
-// ملاحظة: تأكد من مراجعة كلاسات الـ Entities لديك إذا كانت مساراتها مختلفة
 @Database(
-    entities = [], 
+    entities = [Product::class, Sale::class, Customer::class, Purchase::class, Expense::class], 
     version = 1, 
     exportSchema = false
 )
 abstract class MohaliDatabase : RoomDatabase() {
-    // إذا واجهت خطأ هنا، تأكد أن كلاسات الـ Dao ممتدة من الـ Interface الصحيح
+    abstract fun productDao(): ProductDao
+    abstract fun saleDao(): SaleDao
+    abstract fun customerDao(): CustomerDao
+    abstract fun purchaseDao(): PurchaseDao
+    abstract fun expenseDao(): ExpenseDao
 }

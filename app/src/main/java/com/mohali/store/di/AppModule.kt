@@ -23,4 +23,24 @@ object AppModule {
             "mohali_store_db"
         ).fallbackToDestructiveMigration().build()
     }
+
+    @Provides
+    @Singleton
+    fun provideProductDao(db: MohaliDatabase) = db.productDao()
+
+    @Provides
+    @Singleton
+    fun provideSaleDao(db: MohaliDatabase) = db.saleDao()
+
+    @Provides
+    @Singleton
+    fun provideCustomerDao(db: MohaliDatabase) = db.customerDao()
+
+    @Provides
+    @Singleton
+    fun providePurchaseDao(db: MohaliDatabase) = db.purchaseDao()
+
+    @Provides
+    @Singleton
+    fun provideExpenseDao(db: MohaliDatabase) = db.expenseDao()
 }
